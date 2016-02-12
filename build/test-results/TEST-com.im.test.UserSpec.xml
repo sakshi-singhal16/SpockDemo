@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.im.test.UserSpec" tests="14" skipped="0" failures="0" errors="0" timestamp="2016-02-12T07:40:52" hostname="sakshi" time="0.227">
+  <properties/>
+  <testcase name="Get full name[0]" classname="com.im.test.UserSpec" time="0.001"/>
+  <testcase name="Get full name[1]" classname="com.im.test.UserSpec" time="0.001"/>
+  <testcase name="Get full name[2]" classname="com.im.test.UserSpec" time="0.0"/>
+  <testcase name="Prefix the full name[0]" classname="com.im.test.UserSpec" time="0.001"/>
+  <testcase name="Prefix the full name[1]" classname="com.im.test.UserSpec" time="0.001"/>
+  <testcase name="Prefix the full name[2]" classname="com.im.test.UserSpec" time="0.0"/>
+  <testcase name="validate password correctly" classname="com.im.test.UserSpec" time="0.003"/>
+  <testcase name="encrypt password[0]" classname="com.im.test.UserSpec" time="0.194"/>
+  <testcase name="encrypt password[1]" classname="com.im.test.UserSpec" time="0.002"/>
+  <testcase name="encrypt password[2]" classname="com.im.test.UserSpec" time="0.002"/>
+  <testcase name="calculate income group of user" classname="com.im.test.UserSpec" time="0.009"/>
+  <testcase name="purchased product is added to list of purchased products" classname="com.im.test.UserSpec" time="0.001"/>
+  <testcase name="cancelled product is removed from the list of purchased products" classname="com.im.test.UserSpec" time="0.002"/>
+  <testcase name="get sorted list of categories" classname="com.im.test.UserSpec" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

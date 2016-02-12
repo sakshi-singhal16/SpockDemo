@@ -32,7 +32,7 @@ class User {
         return isValid
     }
 
-    String resetPasswordAndSendEmail() {
+    void resetPasswordAndSendEmail() {
         String newPassword = "dummy"
         this.password = encyryptPassword(newPassword)
         emailService.sendCancellationEmail(this, newPassword)
@@ -52,8 +52,8 @@ class User {
         String group
         if (this.incomePerMonth <= 5000) {
             group = "MiddleClass"
-        } else if (incomePerMonth > 5000 && incomePerMonth <= 1000) {
-            group = "Higher MiddleClass"
+        } else if (incomePerMonth > 5000 && incomePerMonth <= 10000) {
+            group = "Lower MiddleClass"
         } else if (incomePerMonth > 10000) {
             group = "Higher MiddleClass"
         }

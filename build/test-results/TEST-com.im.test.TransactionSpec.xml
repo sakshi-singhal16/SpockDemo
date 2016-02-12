@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.im.test.TransactionSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-02-12T07:40:52" hostname="sakshi" time="0.123">
+  <properties/>
+  <testcase name="Sell subtracts the balance of a user by the price of the product" classname="com.im.test.TransactionSpec" time="0.111"/>
+  <testcase name="An exception is thrown when less than product cost" classname="com.im.test.TransactionSpec" time="0.01"/>
+  <testcase name="An exception is thrown when user has no balance" classname="com.im.test.TransactionSpec" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
